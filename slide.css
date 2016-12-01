@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Calibri;
+  font-family: "Proxima Nova";
   font-weight: 200;
   color: white;
   background-color: black;
@@ -25,6 +25,7 @@ h1 {
   height: 0;
   width: 0;
   display: none;
+  text-align: center;
 }
 
 .slide.visible-slide {
@@ -50,8 +51,16 @@ h1 {
 
 .blue-background {
   background-color: blue;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.blue-background,
+.red-background {
   display: inline-block;
-  padding: 8px 12px;
+  padding: 8px 16px;
 }
 
 .margin-center {
@@ -73,7 +82,16 @@ h2 {
   text-align: center;
 }
 
+ol,
+ul {
+  text-align: left;
+  margin-right: 50px;
+}
+
 li {
   margin-bottom: 15px;
-  text-align: center;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  list-style-position: inside;
 }

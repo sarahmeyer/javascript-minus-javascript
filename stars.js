@@ -14,8 +14,8 @@ window.Galaxy = {
     galaxy_element = document.createElement('div');
 
     galaxy_element.setAttribute("style",
-      "height: " + height + "px;" +
-      "width: " + width + "px;" +
+      "height: 100%;" +
+      "width: 100%;" +
       "position: absolute;"
     );
 
